@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Castoro Titling', cursive;
+}
+:root{
+    --main-color:#77dae4;
+    --box-color: #a16d0e;
+    --black:#333;
+    --white:#fff;
+    --font-family: 'Castoro Titling', cursive;
+    --background: #020631;
+    --light-color:#666;
+    
+}
+.navbar-brand{
+    color: #ffffff;
+    font-weight: bold;
+}
+.navbar-brand:hover{
+    color: #77dae4;
+}
+.nav-link{
+    color: #e3dcdc;
+    font-weight: 100;
+}
+.nav-link:hover{
+    color: #77dae4;
+}
+.text-home{
+margin-top: 15%;
+}
+.text-home h2{
+    font-weight: bold;
+    font-size: 60px;
+}
+.text-home h4{
+    font-size: 20px;
+    color: #f0e6e6;
+}
+.btn{ 
+    background-color: #77dae4;
+    width: 180px;
+    height: 56px;
+    color: #343030;
+    border-radius: 1px;
+}
+.btn:hover{
+    background-color:  #343030;
+    color: #77dae4;
+}
+.about{
+    background-color:#77dae4 ;
+}
+.about .line{
+    width: 20px;
+    height: 2px;
+   background-color: #a16d0e;
+   margin-left: 40%;
+
+}
+.about p{
+   font-size: 14px;
+   text-align: justify;
+   font-weight: 500;
+}
+.btn-btn{
+    background-color: #666868;
+    width: 180px;
+    height: 56px;
+    color:#77dae4;
+    border-radius: 2px;
+    font-weight: bold;
+  
+
+}
+
+.portfolio .text-sec a{
+    background-color: #343030;
+    color: #77dae4;
+    font-size: 14px;
+    padding:  15px;
+    font-weight: 500;
+    
+}
+.portfolio .text-sec a:hover{
+    color: #343030;
+    background-color: #77dae4;
+}
+.btn-btn:hover{
+    background-color: #343030;
+}
+.Contact .btn{
+   background-color:  #343030;
+   color: #77dae4;
+}
+.Contact .icon a{ 
+    font-size: 25px;
+    padding: 20px;
+
+}
+.Contact .icon a:hover{
+    color: #fff;
+}
+.copyright h3{
+    font-size: 15px;
+    font-weight: 100;
+    color: #7a7878;
+}
+
+@media screen and (max-width:480px){
+  
+    
+}
